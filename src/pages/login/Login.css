@@ -1,0 +1,27 @@
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); 
+    padding: 40px;
+}
+.form input{
+    margin: 20px;
+    direction: ltr;
+    outline: none;
+    padding: 5px;
+}
+.form button{
+    margin: 20px;
+    outline: none;
+    border:1px solid lightslategray ;
+    padding: 5px;
+    background-color:lightslategray;
+}
